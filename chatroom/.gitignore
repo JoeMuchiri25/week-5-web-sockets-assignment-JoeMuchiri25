@@ -1,0 +1,26 @@
+# Top-level .gitignore
+
+# Node modules (both frontend & backend)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output
+client/build/
+dist/
+
+# Env files
+.env
+client/.env
+server/.env
+
+# Logs
+*.log
+
+# OS & IDE stuff
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Cache or temp
+*.sock
